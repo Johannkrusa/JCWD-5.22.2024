@@ -1,0 +1,49 @@
+html{
+    font-size: 15px;
+}
+
+#lorem{
+    background-color: rgb(169, 255, 220);
+}
+p{
+    background-color: rgb(88, 4, 75);
+}
+.primary-color{
+    color: green;
+}
+.secondary-color{
+    color: whitesmoke;
+}
+
+.bg-primary-color{
+    background-color:beige;
+}
+.bg-secondary-color{
+    background-color: rgb(150, 108, 92);
+}
+
+section{
+    font-size: 10px;
+}
+
+section > div{
+    font-size: 3em;
+}
+
+#purwadhika{
+    font-size: 2em;
+}
+
+#bsd{
+    font-size: 2rem;
+}
+
+#submit{
+    color: white;
+    background-color: salmon;
+}
+
+#submit:hover{
+    color: white;
+    background-color: yellow;
+}

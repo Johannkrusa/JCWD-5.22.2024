@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(14, 14, 14);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            color: white;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+        }
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+        h1 {
+            color: white;
+            font-size: 60px;
+        }
+        .legendary {
+            color: gold;
+        }
+        .unique {
+            color: rgb(255, 0, 255);
+        }
+        .common {
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            List of players
+        </h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Weapon</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20</td>
+                <td><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisQBhkfoss8nSml4HD1asLJJLOXRw6gE6kcLVnjt_RSC9Aa1lckUT_Q21I_gAZ2HMChhrGzQzryKjLGa2ScAQIZ9Lv4nW2YQBEb2Cw3ytU3lTcqf0kTgLrZ8fG7ZMklmUnQRiB3cYx10e1/s800/business_man_macho.png" alt="Image 1"></td>
+                <td>Tanaka</td>
+                <td class="common">Superhuman Fist</td>
+                <td>
+                    <div>
+                        <label><input type="radio" name="class1" value="Warrior" checked> Warrior</label>
+                        <label><input type="radio" name="class1" value="Mage"> Mage</label>
+                        <label><input type="radio" name="class1" value="Archer"> Archer</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA0rIQWqHZhSQBfJNuSYosh7kf_aBS9sEnUxZYGx0rR1uR9aVQ4s0dEtoOKlEPhJo-vqs8s7b71drEfYHSn4oQSk6xLeH9oWRcY6hyphenhyphen9kbc0UtWioImTYQQf38ZFD75-slGUAyWPdnacqz8/s800/business_woman_macho.png" alt="Image 2"></td>
+                <td>Yamada</td>
+                <td class="common">Gigantification Fist</td>
+                <td>
+                    <div>
+                        <label><input type="radio" name="class2" value="Warrior" checked> Warrior</label>
+                        <label><input type="radio" name="class2" value="Mage"> Mage</label>
+                        <label><input type="radio" name="class2" value="Archer"> Archer</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhUxBdgSqReIk0Jl5fd3bX3IS6lpQvRpV14fV1iR7qLg8D2AacfUQh_B45DivrEKZ3N8JF2zp9tkicUtXUua2BTcBIgbfHVa-RgvaVCBR-NfCmGkAWPX5LctGmDRDJKwMI2uw1SWguhe0/s800/olympic17_archery.png" alt="Image 1"></td>
+                <td>Shizuka</td>
+                <td class="legendary">Bow Of Light</td>
+                <td>
+                    <div>
+                        <label><input type="radio" name="class3" value="Warrior"> Warrior</label>
+                        <label><input type="radio" name="class3" value="Mage"> Mage</label>
+                        <label><input type="radio" name="class3" value="Archer" checked> Archer</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td><img src="https://pngfre.com/wp-content/uploads/doraemon-png-image-from-pngfre-8-720x1024.png" alt="Image 1"></td>
+                <td>Doraemon</td>
+                <td class="unique">Infinite Pocket Dimension</td>
+                <td>
+                    <div>
+                        <label><input type="radio" name="class4" value="Warrior"> Warrior</label>
+                        <label><input type="radio" name="class4" value="Mage" checked> Mage</label>
+                        <label><input type="radio" name="class4" value="Archer"> Archer</label>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
